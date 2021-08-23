@@ -195,7 +195,14 @@ class Login extends PureComponent {
                     </div>
                 </div>
                 <div className="footer">
-                    {OEM.Companies} 版权所有 2018 京ICP备18043454号
+                    {OEM.Companies} 版权所有 2021
+                    <a
+                        style={{color: '#fff'}}
+                        onClick={()=>{
+                            window.open('http://beian.miit.gov.cn/', '_blank')
+                    }}
+                    >
+                    京ICP备18043454号</a>
                 </div>
             </div>
         );
