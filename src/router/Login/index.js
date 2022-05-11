@@ -202,7 +202,7 @@ class Login extends PureComponent {
                             window.open('http://beian.miit.gov.cn/', '_blank')
                     }}
                     >
-                    京ICP备18043454号</a>
+                    {OEM.BeiAn}</a>
                 </div>
             </div>
         );

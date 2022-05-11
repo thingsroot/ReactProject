@@ -4,7 +4,8 @@ const OEM = {
     MiniTitle: '冬', // 左侧导航栏缩小后的文字,
     Icon: '', // 公司favicon图标,  如要修改favicon.icon图标，直接替换public文件夹下的favicon.ico即可
     Logo: '', // 公司logo,
-    Companies: '冬笋科技' // 公司名称
+    Companies: '冬笋科技', // 公司名称
+    BeiAn: '京ICP备18043454号' // 网站备案
     // Dashboard: 'Dashboard',
     // Mygates: '我的网关',
     // Myapp: '我的应用',
