@@ -5,7 +5,10 @@ const OEM = {
     Icon: '', // 公司favicon图标,  如要修改favicon.icon图标，直接替换public文件夹下的favicon.ico即可
     Logo: '', // 公司logo,
     Companies: '冬笋科技', // 公司名称
-    BeiAn: '京ICP备18043454号' // 网站备案
+    BeiAn: '京ICP备18043454号', // 网站备案
+	IOEDomain: 'http://ioe.thingsroot.com',
+	MQTTWS: 'wss://cloud.thingsroot.com/ws',
+	HelpDomain: 'http://help.cloud.thingsroot.com'
     // Dashboard: 'Dashboard',
     // Mygates: '我的网关',
     // Myapp: '我的应用',

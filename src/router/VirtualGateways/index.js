@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Table, Button, Icon } from 'antd';
 import http from '../../utils/Server';
 import './style.scss';
+import OEM from '../../assets/OEM';
 class MyVirtualGates extends React.Component {
     state = {
         columns: [
@@ -122,7 +123,7 @@ class MyVirtualGates extends React.Component {
                         <h3>
                             <b>
                                 <a
-                                    href="http://help.cloud.thingsroot.com/guide/user_guide/FreeIOE-VM.html"
+                                    href={OEM.HelpDomain + '/guide/user_guide/FreeIOE-VM.html'}
                                     target="_blank"
                                 >FreeIOE虚拟机使用帮助</a>
                             </b>

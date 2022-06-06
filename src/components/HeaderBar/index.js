@@ -46,7 +46,7 @@ class HeaderBar extends PureComponent {
                     style={{lineHeight: '30px'}}
                     onClick={
                         ()=>{
-                            window.open('http://help.cloud.thingsroot.com/guide/quick_start/', '_blank')
+                            window.open(OEM.HelpDomain + '/guide/quick_start/', '_blank')
                         }
                     }
                 >
@@ -61,7 +61,7 @@ class HeaderBar extends PureComponent {
                     style={{lineHeight: '30px'}}
                     onClick={
                         ()=>{
-                            window.open('http://help.cloud.thingsroot.com/guide/', '_blank')
+                            window.open(OEM.HelpDomain + '/guide/', '_blank')
                         }
                     }
                 >
@@ -75,7 +75,7 @@ class HeaderBar extends PureComponent {
                     style={{lineHeight: '30px'}}
                     onClick={
                         ()=>{
-                            window.open('http://help.cloud.thingsroot.com/guide/user_guide/', '_blank')
+                            window.open(OEM.HelpDomain + '/guide/user_guide/', '_blank')
                         }
                     }
                 >
@@ -89,7 +89,7 @@ class HeaderBar extends PureComponent {
                     style={{lineHeight: '30px'}}
                     onClick={
                         ()=>{
-                            window.open('http://help.cloud.thingsroot.com/guide/admin_guide/ ', '_blank')
+                            window.open(OEM.HelpDomain + '/guide/admin_guide/ ', '_blank')
                         }
                     }
                 >
@@ -104,7 +104,7 @@ class HeaderBar extends PureComponent {
                     style={{lineHeight: '30px'}}
                     onClick={
                         ()=>{
-                            window.open('http://help.cloud.thingsroot.com/app_api_book/', '_blank')
+                            window.open(OEM.HelpDomain + '/app_api_book/', '_blank')
                         }
                     }
                 >
