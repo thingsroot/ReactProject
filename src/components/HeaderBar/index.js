@@ -3,7 +3,8 @@ import { Icon, message, Menu, Dropdown } from 'antd';
 import { withRouter, Link} from 'react-router-dom';
 import { _getCookie, isAuthenticated, authenticateClear } from '../../utils/Session';
 import http  from '../../utils/Server';
-import path from '../../assets/path';
+import PATH from '../../assets/path';
+import OEM from '../../assets/OEM';
 
 @withRouter
 class HeaderBar extends PureComponent {
@@ -39,6 +40,7 @@ class HeaderBar extends PureComponent {
     }
     render () {
         const {page} = this.state;
+        const help_url = PATH.help_domain;
         const menu1 = (
             <Menu>
                 <Menu.Item
@@ -46,7 +48,7 @@ class HeaderBar extends PureComponent {
                     style={{lineHeight: '30px'}}
                     onClick={
                         ()=>{
-                            window.open(path.help_domain + '/guide/quick_start/', '_blank')
+                            window.open(help_url + '/guide/quick_start/', '_blank')
                         }
                     }
                 >
@@ -61,7 +63,7 @@ class HeaderBar extends PureComponent {
                     style={{lineHeight: '30px'}}
                     onClick={
                         ()=>{
-                            window.open(path.help_domain + '/guide/', '_blank')
+                            window.open(help_url + '/guide/', '_blank')
                         }
                     }
                 >
@@ -75,7 +77,7 @@ class HeaderBar extends PureComponent {
                     style={{lineHeight: '30px'}}
                     onClick={
                         ()=>{
-                            window.open(path.help_domain + '/guide/user_guide/', '_blank')
+                            window.open(help_url + '/guide/user_guide/', '_blank')
                         }
                     }
                 >
@@ -89,7 +91,7 @@ class HeaderBar extends PureComponent {
                     style={{lineHeight: '30px'}}
                     onClick={
                         ()=>{
-                            window.open(path.help_domain + '/guide/admin_guide/ ', '_blank')
+                            window.open(help_url + '/guide/admin_guide/', '_blank')
                         }
                     }
                 >
@@ -104,7 +106,7 @@ class HeaderBar extends PureComponent {
                     style={{lineHeight: '30px'}}
                     onClick={
                         ()=>{
-                            window.open(path.help_domain + '/app_api_book/', '_blank')
+                            window.open(help_url + '/app_api_book/', '_blank')
                         }
                     }
                 >
